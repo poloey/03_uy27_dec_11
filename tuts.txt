@@ -44,4 +44,13 @@ margin: nijer barir barier jaiga
 border-width: 2px;
 border-style: solid;
 border-color: red;
-padding : nijer jaiga 
+padding : nijer jaigdiv id="b
+div id="bwidth: 200px;a 
+
+
+# tag selector name
+# class selector .
+# id selector #
+# attribute selector []
+# psudeo selector
+

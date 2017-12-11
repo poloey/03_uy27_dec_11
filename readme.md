@@ -62,6 +62,9 @@ padding will make spacing inside of container
 padding property:    
  `padding` `padding-top` `padding-right` `padding-bottom` `padding-left`   
 
+# box-sizing
+By default box-sizing is `content-box`. In order to padding from own width height we give it `border-box` value
+
 ### selector  - 5 selector
 tag selector is tag name     
 id selector start with `#`     

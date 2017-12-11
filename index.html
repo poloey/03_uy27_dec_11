@@ -26,6 +26,43 @@
     #box3 {
       background: skyblue;
     }
+    .link {
+      padding: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: red;
+    }
+    a:hover {
+      background: tomato;
+      color: white;
+
+    }
+    /* a:first-child {
+      color: blue;
+    }
+    a:last-child {
+      color: salmon;
+    } */
+    a:nth-child(1) {
+      color: blue;
+    }
+    a:nth-child(2) {
+      color: red;
+    }
+    a:nth-child(3) {
+      color: dodgerblue;
+    }
+    /* [href="http://google.com"] {
+      color: tomato;
+    }
+    [href="http://yahoo.com"] {
+      color: red;
+    }
+    [href="http://microsoft.com"] {
+      color: green;
+    } */
+
   </style>
 </head>
 <body>
@@ -38,6 +75,11 @@
     </div>
     <div class="box" id="box3">
       <p>box 3</p>
+    </div>
+    <div class="link">
+      <a href="http://google.com">google</a>
+      <a href="http://yahoo.com">yahoo</a>
+      <a href="http://microsoft.com">microsoft</a>
     </div>
     <h1>Hello world</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
